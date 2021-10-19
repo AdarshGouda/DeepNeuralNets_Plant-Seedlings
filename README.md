@@ -1,8 +1,10 @@
 # DeepNeuralNets_Plant-Seedlings
 
 Several Architectures were tried as listed below. These ANNs were trainied in separate jupyter files due to limited GPU memory for the tensors.
-All the architecture implementation are shown in Plant Seedling Classification Project.ipynb file
+All the architecture implementation are shown in [Plant Seedling Classification Project.ipynb](https://github.com/AdzTheDemon/DeepNeuralNets_Plant-Seedlings/blob/main/Plant%20Seedling%20Classification_Project_Submission.ipynb) file.
 Saved models during the traning are loaded in the ipynb here to perform the assessment.
+
+Note: Run the individual files of each Architecture to same the trained model. This trained model will be called by [Plant Seedling Classification Project.ipynb](https://github.com/AdzTheDemon/DeepNeuralNets_Plant-Seedlings/blob/main/Plant%20Seedling%20Classification_Project_Submission.ipynb)
 
 ## ANN Architectures 
 
@@ -17,6 +19,6 @@ Saved models during the traning are loaded in the ipynb here to perform the asse
 
 ## Result
 
-<img src="Result.png" width=600>
+<img src="Result.PNG" width=600>
 
 Clearly Xception(#4) implementation has the heighest Score on the Test Set. And also it generilizes much better than other architectures.
